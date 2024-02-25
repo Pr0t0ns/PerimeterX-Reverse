@@ -39,7 +39,7 @@ try {
             }
         }()
           , o = Object.create(null);
-        function i(e) { // This is one of PerimiterX's Decryption Algorithim (Very Simple Bitwise Encryption)
+        function i(e) { // This is one of PerimiterX's Decryption Algorithim (Very Simple Bitwise Decryption)
             // Funny part about this is about 75% of this is filled with nonsense.
             var r = n() 
               , i = o[e]; // Serves no purpose 
@@ -48,7 +48,7 @@ try {
             else { // this is what we need
                 // a is a polyfill function for atob (atob is a function to base64 decode data)
                 for (var c = a(e), u = "", f = 0; f < c.length; ++f) {
-                    // this is the actual bitwise encryption
+                    // this is the actual bitwise decryption part
                     var s = "k5VXHUE".charCodeAt(f % 7);
                     u += String.fromCharCode(s ^ c.charCodeAt(f))
                 }

@@ -39,3 +39,31 @@ As you can see it shows the *PxAPPID* which is essentially the sites site_key
 
 The source code is over 9,000 lines long but this is because it's obfuscated and it has a lot of polyfill functions. 
 one thing you should note is that the source code has VM protection along with obfuscation, meaning that every time you refresh the page the function and variable names will change. PerimiterX along with many other antibot services use this to make it as difficult as possible for people to reverse engineer.
+
+# What we need to do #
+
+**Solve Request**
+
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/6012978b-9d52-498b-8520-bf7594525b20)
+
+This request essentially whitelist the set *_pxhd* cookie so that it is valid. So basically this is the captcha token. all we have to do is reverse the payload values so we can automate this.
+
+**Payload Value**
+
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/360a05ce-f3b0-4018-80cc-27f5d7dbe97b)
+
+These are the payload values
+
+* `payload` Encrypted value I will need to reverse engineer
+* `AppID` this is basically the site key mentioned earlier (each site has a unique one of these)
+* `tag` this is the version tag (each site also has a unique version)
+* `uuid` randomly generated UUID this is usually just used as a request indentifier
+* `ft` A unique 3 digit number (each site has it's unique ft number)
+* `seq`*0* always.
+* `en` *NTA* always.
+* `pc` Generated Value I will need to reverse
+* `sid` **TO BE DETERMINED**
+* `vid` **TO BE DETERMINED**
+* `pxhd` This is the *_pxhd* cookie value which is basically the captcha token
+* `cts` **TO BE DETERMINED**
+* `rsc` This is the Request Count

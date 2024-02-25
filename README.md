@@ -13,7 +13,7 @@ I plan to scrape Device WEBGL Fingerprints and make my own Motion Data if needed
 - **Unflagged WEBGL/Device Fingerprints** | If the antibot service you're trying to get around is any good it will check something called a device hash/fingerprint that was computed from data collected from properties it was able to gather from you visiting the site. Suprisingly, the computed fingerprint is usually very unique (only 1 in around 200,000 devices produce the same hash) this makes it easy to tell the antibot services if your request is coming from a client with the same browser properties (CPU, GPU, CanvasFP, Screen Resolution, Screen Dimensions, User-Agent, Browser Extensions, Timezone just to name a few) as you can see you can't spoof these types of things with only a request library which is where things get more complex and why it may be required to reverse engineer the antibot's encryption methods and fingerprint methods so you're able to spoof these properties.  
 
 
-# Actual Reverse # 
+# How it works # 
 
 **PerimiterX Challenge Example** (shown on ssense.com)
 
@@ -33,3 +33,9 @@ As you can see it shows the *PxAPPID* which is essentially the sites site_key
 
 ![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/f8de9077-5205-4c1f-b06c-10cdc202519d)
 
+**Source Code of PerimiterX's loaded challenge**
+
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/cde4099b-bfda-4041-9438-ac53c98b46d2)
+
+The source code is over 9,000 lines long but this is because it's obfuscated and it has a lot of polyfill functions. 
+one thing you should note is that the source code has VM protection along with obfuscation, meaning that every time you refresh the page the function and variable names will change. PerimiterX along with many other antibot services use this to make it as difficult as possible for people to reverse engineer.

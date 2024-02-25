@@ -54,7 +54,7 @@ This request essentially whitelist the set *_pxhd* cookie so that it is valid. S
 
 These are the payload values
 
-* `payload` Encrypted value I will need to reverse engineer
+* `payload` Encrypted & Encoded value I will need to reverse engineer (We can tell that base64 was used at some point because we can see an "=" which usually comes from padding)
 * `AppID` this is basically the site key mentioned earlier (each site has a unique one of these)
 * `tag` this is the version tag (each site also has a unique version)
 * `uuid` randomly generated UUID this is usually just used as a request indentifier

@@ -17,25 +17,25 @@ I plan to scrape Device WEBGL Fingerprints and make my own Motion Data if needed
 
 **PerimeterX Challenge Example** (shown on ssense.com)
 
-![image](https://github.com/Pr0t0ns/PerimeterX-Reverse/assets/105520163/34c8ebf9-b4af-47bf-8a00-1d16d43cf474)
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/34c8ebf9-b4af-47bf-8a00-1d16d43cf474)
 
 **PX Cookie Gets set by PerimeterX Script**
 
-![image](https://github.com/Pr0t0ns/PerimeterX-Reverse/assets/105520163/8e0f6988-3dd9-4110-a2a7-b08ee35b7776)
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/8e0f6988-3dd9-4110-a2a7-b08ee35b7776)
 
 **Script that sets the Cookie gets loaded within HTML <script> tag**
 
-![image](https://github.com/Pr0t0ns/PerimeterX-Reverse/assets/105520163/9905f2bb-29c5-44d7-abdb-6c2a73376783)
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/9905f2bb-29c5-44d7-abdb-6c2a73376783)
 
 As you can see it shows the *PxAPPID* which is essentially the sites site_key
 
 **Request to fetch the challenge script**
 
-![image](https://github.com/Pr0t0ns/PerimeterX-Reverse/assets/105520163/f8de9077-5205-4c1f-b06c-10cdc202519d)
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/f8de9077-5205-4c1f-b06c-10cdc202519d)
 
 **Source Code of PerimeterX's loaded challenge**
 
-![image](https://github.com/Pr0t0ns/PerimeterX-Reverse/assets/105520163/cde4099b-bfda-4041-9438-ac53c98b46d2)
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/cde4099b-bfda-4041-9438-ac53c98b46d2)
 
 The source code is over 9,000 lines long but this is because it's obfuscated and it has a lot of polyfill functions. 
 one thing you should note is that the source code has VM protection along with obfuscation, meaning that every time you refresh the page the function and variable names will change. PerimeterX along with many other antibot services use this to make it as difficult as possible for people to reverse engineer.
@@ -44,13 +44,13 @@ one thing you should note is that the source code has VM protection along with o
 
 **Solve Request**
 
-![image](https://github.com/Pr0t0ns/PerimeterX-Reverse/assets/105520163/6012978b-9d52-498b-8520-bf7594525b20)
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/6012978b-9d52-498b-8520-bf7594525b20)
 
 This request essentially whitelist the set *_pxhd* cookie so that it is valid. So basically this is the captcha token. all we have to do is reverse the payload values so we can automate this.
 
 **Payload Value**
 
-![image](https://github.com/Pr0t0ns/PerimeterX-Reverse/assets/105520163/360a05ce-f3b0-4018-80cc-27f5d7dbe97b)
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/360a05ce-f3b0-4018-80cc-27f5d7dbe97b)
 
 These are the payload values
 

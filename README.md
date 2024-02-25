@@ -13,7 +13,23 @@ I plan to scrape Device WEBGL Fingerprints and make my own Motion Data if needed
 - **Unflagged WEBGL/Device Fingerprints** | If the antibot service you're trying to get around is any good it will check something called a device hash/fingerprint that was computed from data collected from properties it was able to gather from you visiting the site. Suprisingly, the computed fingerprint is usually very unique (only 1 in around 200,000 devices produce the same hash) this makes it easy to tell the antibot services if your request is coming from a client with the same browser properties (CPU, GPU, CanvasFP, Screen Resolution, Screen Dimensions, User-Agent, Browser Extensions, Timezone just to name a few) as you can see you can't spoof these types of things with only a request library which is where things get more complex and why it may be required to reverse engineer the antibot's encryption methods and fingerprint methods so you're able to spoof these properties.  
 
 
+# Actual Reverse # 
 
-**PerimiterX Challenge Example** (shown on zillow.com)
+**PerimiterX Challenge Example** (shown on ssense.com)
 
-![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/57068aca-2523-415b-b194-6c5febcb34cb)
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/34c8ebf9-b4af-47bf-8a00-1d16d43cf474)
+
+**PX Cookie Gets set by PerimiterX Script**
+
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/8e0f6988-3dd9-4110-a2a7-b08ee35b7776)
+
+**Script that sets the Cookie gets loaded within HTML <script> tag**
+
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/9905f2bb-29c5-44d7-abdb-6c2a73376783)
+
+As you can see it shows the *PxAPPID* which is essentially the sites site_key
+
+**Request to fetch the challenge script**
+
+![image](https://github.com/Pr0t0ns/PerimiterX-Reverse/assets/105520163/f8de9077-5205-4c1f-b06c-10cdc202519d)
+

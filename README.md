@@ -1,7 +1,9 @@
 # PerimeterX-Reverse
 
 Contact
+
 Discord: @poft
+
 Telegram: @Pr0t0nGen
 
 *Background Information*

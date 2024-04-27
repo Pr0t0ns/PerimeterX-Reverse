@@ -1,5 +1,5 @@
 
-# First Collector POST Request Payload UnEncrypted
+# First Collector POST Request Payload UnEncrypted/Decoded
 payload_unencrypted = [{
     "t": "PX12095", 
     "d": {

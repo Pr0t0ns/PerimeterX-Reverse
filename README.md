@@ -1,5 +1,9 @@
 # PerimeterX-Reverse
 
+Contact
+Discord: @poft
+Telegram: @Pr0t0nGen
+
 *Background Information*
 
 This repo is gonna be my progress as I continue to attempt to reverse engineer PerimeterX's challenge untill I can produce a fully unflagged bypass/solver that's completley automated using only request no browser.

@@ -60,16 +60,16 @@ This request essentially whitelist the set *_pxhd* cookie so that it is valid. S
 
 These are the payload values
 
-* `payload` Encrypted & Encoded value I will need to reverse engineer (We can tell that base64 was used at some point because we can see an "=" which usually comes from padding)
+* `payload` Encrypted & Encoded value I will need to reverse engineer (We can tell that base64 was used at some point because we can see an "=" which usually comes from padding) (**COMPLETED REVERSE**)
 * `AppID` this is basically the site key mentioned earlier (each site has a unique one of these)
 * `tag` this is the version tag (each site also has a unique version)
 * `uuid` randomly generated UUID this is usually just used as a request indentifier
-* `ft` A unique 3 digit number (each site has it's unique ft number)
-* `seq`*0* always.
+* `ft` A unique 3 digit number (each site has it's unique ft number) 
+* `seq`*rsc - 1*.  
 * `en` *NTA* always.
-* `pc` Generated Value I will need to reverse
+* `pc` Generated Value I will need to reverse (**NEEDS TO BE REVERSED**)
 * `sid` **TO BE DETERMINED**
 * `vid` **TO BE DETERMINED**
 * `pxhd` This is the *_pxhd* cookie value which is basically the captcha token
 * `cts` **TO BE DETERMINED**
-* `rsc` This is the Request Count
+* `rsc` This is the Request Count 

@@ -4,7 +4,7 @@ Contact
 
 Discord: @poft
 
-Telegram: @Pr0t0ns
+Telegram: @Pr0t0na
 
 *Background Information*
 

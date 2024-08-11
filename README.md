@@ -1,6 +1,6 @@
 # PerimeterX-Reverse
 
-FULL REVERSED/SOLVED SCRIPT
+FULL REVERSED/SOLVED SCRIPT ->
 https://github.com/Pr0t0ns/PerimeterX-Solver
 
 Contact

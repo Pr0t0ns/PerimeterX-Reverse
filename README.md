@@ -7,7 +7,7 @@ Contact
 
 Discord: @poft
 
-Telegram: @Pr0t0nlol
+Telegram: @Pr0t0nW
 
 *Background Information*
 

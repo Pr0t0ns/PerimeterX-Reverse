@@ -3,11 +3,11 @@
 FULL REVERSED/SOLVED SCRIPT ->
 https://github.com/Pr0t0ns/PerimeterX-Solver
 
-Contact
+Contact Me (Selling private PX solutions for more recent versions of PX)
 
 Discord: @poft
 
-Telegram: @Pr0t0ngoat
+Telegram: @Pr0t0ngoated (https://t.me/pr0t0ngoated)
 
 *Background Information*
 

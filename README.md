@@ -1,13 +1,10 @@
 # PerimeterX-Reverse
-
-FULL REVERSED/SOLVED SCRIPT ->
-https://github.com/Pr0t0ns/PerimeterX-Solver
+https://github.com/Pr0t0ns/PerimeterX-Solver 
+^ UPDATED REVERSED/SOLVED SCRIPT ^
 
 Contact Me (Selling private PX solutions for more recent versions of PX)
 
-Discord: @poft
-
-Telegram: @cornflakes (https://t.me/cornflakes)
+Telegram: @pr0t0ngo (https://t.me/pr0t0ngo)
 
 *Background Information*
 

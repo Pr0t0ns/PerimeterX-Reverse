@@ -4,7 +4,7 @@ https://github.com/Pr0t0ns/PerimeterX-Solver
 
 Contact Me (Selling private PX solutions for more recent versions of PX)
 
-Telegram: @pr0t0ngo (https://t.me/pr0t0ngo)
+Telegram: @Pr0t0npro (https://t.me/Pr0t0npro)
 
 *Background Information*
 

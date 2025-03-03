@@ -2,7 +2,7 @@
 https://github.com/Pr0t0ns/PerimeterX-Solver 
 ^ UPDATED REVERSED/SOLVED SCRIPT ^
 
-Contact Me (Selling private PX solutions for more recent versions of PX)
+Contact provided below for inquiries regarding the purchase of newer or older versions of PerimeterX, please reach out via Telegram or Discord (Telegram preferred). Contact details are provided above.
 
 Telegram: @Pr0t0nwave (https://t.me/Pr0t0nwave)
 

@@ -22,7 +22,7 @@ payload_unencrypted = [{
         "PX11496": "ad2e4860-002b-11ef-bc61-1b44c38fe285", # UUID (this is important for reverse) 
         "PX12564": None,
         "PX12565": -1, # TO BE DETERMINED (probably False Value or Undefined)
-        "PX11379": True # TO BE DETERMINED (Probably True Value)
+        "PX11379": True 
     }
 }]
 

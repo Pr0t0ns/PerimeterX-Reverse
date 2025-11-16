@@ -1,12 +1,18 @@
 # PerimeterX-Reverse
 https://github.com/Pr0t0ns/PerimeterX-Solver 
-^ UPDATED REVERSED/SOLVED SCRIPT ^
+^ REVERSED/SOLVED SCRIPT FOR v8.9.6 ^
 
-# Pay-per use PerimeterX service is coming soon to https://silentsolve.xyz #
+NOTE: For inquiries regarding the purchase of newer versions of PX please feel free to reach out via Telegram. Contact details to SilentSolve are provided below.
 
-Contact provided below for inquiries regarding the purchase of newer versions of PerimeterX please feel free reach out via Telegram. Contact details are provided below.
+*Silent Solve Links*
 
-Telegram: @autographed (https://t.me/autographed)
+https://discord.gg/SilentSolve (Official Discord Channel)
+
+https://t.me/SilentSolve (Official Telegram Channel)
+
+https://t.me/SilentSolveVouches (Customer Vouches/Testimonials)
+
+# Pay-per use PerimeterX service is coming to https://silentsolve.xyz soon #
 
 *Background Information*
 

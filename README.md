@@ -2,18 +2,6 @@
 https://github.com/Pr0t0ns/PerimeterX-Solver 
 ^ REVERSED/SOLVED SCRIPT FOR v8.9.6 ^
 
-NOTE: For inquiries regarding the purchase of newer versions of PX please feel free to reach out via Telegram. Contact details to SilentSolve are provided below.
-
-*Silent Solve Links*
-
-https://discord.gg/SilentSolve (Official Discord Channel)
-
-https://t.me/SilentSolve (Official Telegram Channel)
-
-https://t.me/SilentSolveVouches (Customer Vouches/Testimonials)
-
-# Pay-per use PerimeterX service is coming to https://silentsolve.xyz soon #
-
 *Background Information*
 
 This repo is gonna be my progress as I continue to attempt to reverse engineer PerimeterX's challenge untill I can produce a fully unflagged bypass/solver that's completley automated using only request no browser.
